@@ -7,9 +7,9 @@ input = input_string.split("\n")
 input.pop()
 
 input_list = list(map(int, input))
+
+
 # %%
-
-
 def count_0s(input_list: list) -> int:
     count = 0
     dial = 50
@@ -21,3 +21,7 @@ def count_0s(input_list: list) -> int:
             count += 1
 
     return count
+
+
+# %%
+print(count_0s(input_list))
