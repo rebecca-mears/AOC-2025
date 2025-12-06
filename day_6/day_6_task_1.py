@@ -37,6 +37,7 @@ def maths_homework(input_string):
     homework_df["answer_+"] = (
         homework_df[["number_1", "number_2", "number_3", "number_4"]].sum(axis=1)
     ).where(homework_df["operation"] == "+")
+
     homework_df["answer_*"] = (
         homework_df["number_1"]
         * homework_df["number_2"]
