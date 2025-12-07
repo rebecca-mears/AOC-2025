@@ -21,7 +21,3 @@ def count_0s(input_list: list) -> int:
             count += 1
 
     return count
-
-
-# %%
-print(count_0s(input_list))

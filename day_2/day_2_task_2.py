@@ -24,11 +24,7 @@ def sum_more_invalid_ids(input_list):
                         for idx in range(0, len(str(i)), len_divider)
                     ]
 
-                    # print(num_parts)
                     if len(set(num_parts)) == 1:
-                        # print(num_parts)
-                        # print(set(num_parts))
-                        # print(i)
                         invalid_sum += i
                         break
     return invalid_sum

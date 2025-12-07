@@ -17,12 +17,10 @@ def sum_invalid_ids(input_list):
 
         for i in range(int(first), int(last) + 1):
             if len(str(i)) % 2 == 0:
-                # print(i)
                 first_half = str(i)[: int(len(str(i)) / 2)]
                 second_half = str(i)[int(len(str(i)) / 2) :]
 
                 if first_half == second_half:
-                    # print(i)
                     invalid_sum += i
 
     return invalid_sum

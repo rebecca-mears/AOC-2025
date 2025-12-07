@@ -1,19 +1,32 @@
-# %%
 from math import ceil, floor
 
-# %%
-with open("input.txt", "r") as f:
-    input_string = f.read()
 
-input_string = input_string.replace("L", "-").replace("R", "")
-input = input_string.split("\n")
-input.pop()
+def part_1(input):
+    input_string = input.replace("L", "-").replace("R", "")
+    input = input_string.split("\n")
+    input.pop()
 
-input_list = list(map(int, input))
+    input_list = list(map(int, input))
+
+    count = 0
+    dial = 50
+
+    for input in input_list:
+        dial += input
+
+        if dial % 100 == 0:
+            count += 1
+
+    return count
 
 
-# %%
-def count_all_0s(input_list: list) -> int:
+def part_2(input):
+    input_string = input.replace("L", "-").replace("R", "")
+    input = input_string.split("\n")
+    input.pop()
+
+    input_list = list(map(int, input))
+
     count = 0
     dial = 50
 
@@ -42,3 +55,14 @@ def count_all_0s(input_list: list) -> int:
         dial += input
 
     return count
+
+
+if __name__ == "__main__":
+    with open("testing/inputs/day1.txt", "r") as f:
+        input = f.read()
+
+    res_1 = part_1(input)
+    print(f"Part 1 answer = {res_1}")
+
+    res_2 = part_2(input)
+    print(f"Part 2 answer = {res_2}")
