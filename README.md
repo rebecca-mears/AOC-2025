@@ -4,3 +4,4 @@ Here is stored my attempts for the 2025 Advent of Code including the time taken 
 |:----:|:--------------:|:-----------:|:---------:|
 |Day 1| $0.00060 \pm 5.6\times 10^{-5}$ | $0.00171 \pm 1.5\times10{-4}$ | $0.003$ |
 |Day 2| $0.72121 \pm 29.8\times10^{-3}$ | $5.86348 \pm 5.2\times10^{-2}$ | $6.585$ |
+|Day 3| $0.00039 \pm 4.2\times10^{-5}$ | $0.00119 \pm 1.0\times10^{-4}$ | $0.002$ |
