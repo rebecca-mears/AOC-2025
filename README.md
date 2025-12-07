@@ -1,4 +1,4 @@
-Here is stored my attempts for the 2025 Advent of Code including the time taken to complete each day in cpu hours.
+Here is stored my attempts for the 2025 Advent of Code including the time taken to complete each day in cpu hours. Code for timings by https://github.com/JoRdAnB421
 
 | Day | Part 1 (secs) | Part 2 (secs) |Total CPU time (secs)| 
 |:----:|:--------------:|:-----------:|:---------:|
@@ -7,3 +7,10 @@ Here is stored my attempts for the 2025 Advent of Code including the time taken 
 |Day 3| $0.00039 \pm 4.2\times10^{-5}$ | $0.00119 \pm 1.0\times10^{-4}$ | $0.002$ |
 |Day 4| $0.07665 \pm 1.7\times10^{-3}$ | $0.10809 \pm 6.3\times10^{-3}$ | $0.185$ |
 |Day 5| $0.02765 \pm 2.2\times10^{-4}$ | $0.00450 \pm 2.4\times10^{-3}$ | $0.032$ |
+|Day 6| $0.0012 \pm 2.7\times10^{-4}$ | $0.005 \pm 1.7\times10^{-3}$ | $0.007$ |
+|Day 7|||||
+|Day 8|||||
+|Day 9|||||
+|Day 10|||||
+|Day 11|||||
+|Day 12|||||

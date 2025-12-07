@@ -1,3 +1,5 @@
+"""By https://github.com/JoRdAnB421"""
+
 import csv
 import time
 
