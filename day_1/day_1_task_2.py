@@ -42,9 +42,3 @@ def count_all_0s(input_list: list) -> int:
         dial += input
 
     return count
-
-
-# %%
-print(count_all_0s(input_list))
-
-# %%
