@@ -46,8 +46,6 @@ def get_product_last_x(input_string):
         distance_matrix_df[closest_boxes[0]][closest_boxes[1]] = np.nan
         distance_matrix_df[closest_boxes[1]][closest_boxes[0]] = np.nan
 
-        print(len(sorted(connections, key=lambda item: len(item))[-1]))
-
     product = input_vectors[closest_boxes[0]][0] * input_vectors[closest_boxes[1]][0]
 
     return product
