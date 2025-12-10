@@ -12,7 +12,7 @@ Code for timings by https://github.com/JoRdAnB421
 |Day 6| $0.00406 \pm 2.8\times10^{-3}$ | $0.01729 \pm 7.1\times10^{-4}$ | $0.022$ |
 |Day 7| $0.00228 \pm 2.5\times10^{-5}$ | $0.00318 \pm 2.4\times10^{-5}$ | $0.006$|
 |Day 8| $16.39647 \pm 9.5\times10^{-1}$ | $143.59340 \pm 1.8$ | $159.990$|
-|Day 9|||||
+|Day 9| $0.03934 \pm 3.7\times10^{-4}$ | Incomplete | Task 2 Incomplete |
 |Day 10|||||
 |Day 11|||||
 |Day 12|||||
